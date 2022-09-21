@@ -1,9 +1,11 @@
 import React  from 'react';
 import './App.css';
 import ApeLogo from './assets/ApeLogo.jpg'
+import JoeRec from './assets/JoeRec.png'
 import {Navbar, Nav, NavDropdown, Container, Row, Col, Image,Button,Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Facebook, Instagram, Spotify, Youtube } from 'react-bootstrap-icons';
+import Footer from './common/components/footer';
 
 function App() {
   return (
@@ -27,29 +29,26 @@ function App() {
         <main>
           <Container>
             <Row className='px-4 my-5'>
-              <Col sm={7}>
+              <Col sm={12}>
                 <Image
                     src={ApeLogo}
                     fluid
                     rounded
                 />
-
-              </Col>
-              <Col
-                  sm={5}>
-                <h1 class='font-weigh-light'>Tagline</h1>
-                <p class="mt-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <Button variant='outline-primary'>Call to Action</Button>
               </Col>
             </Row>
             <Card className='text-center bg-secondary text-white my-5 py-4'>
-              <Card.Body>This is some text within a card body.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
-                est harum ea consequuntur qui? Quisquam, voluptatum modi? Rerum,
-                voluptates iure accusamus sint quam numquam, inventore eos asperiores
-                commodi possimus id!
+              <Card.Body>Check out the latest video!
+                <a href="https://www.instagram.com/p/Ch0qDE0ohHE/?next=%2Fthenamelessapes%2F" target="_blank"
+                   aria-label="Check out the latest video">
+                  <Image
+                      src={JoeRec}
+                      fluid
+                      rounded
+                      className="img-fluid"
+                      alt="Watch Video Recording"
+                  />
+                </a>
               </Card.Body>
             </Card>
             <Row>
@@ -95,17 +94,18 @@ function App() {
             </Row>
           </Container>
         </main>
-        <footer className="py-3 my-5 bg-dark">
-          <Container>
-            <div>
-                <p className="text-center text-white">Copyright &copy; NamelessApes 2022</p>
-              <Spotify style={{ color: 'red' }}/>
-              <Instagram style={{ color: 'red' }} />
-              <Facebook style={{ color: 'red' }}/>
-              <Youtube style={{ color: 'red' }} />
-            </div>
-          </Container>
-        </footer>
+        <Footer />
+        {/*<footer className="py-3 my-5 bg-dark">*/}
+        {/*  <Container>*/}
+        {/*    <div>*/}
+        {/*        <p className="text-center text-white">Copyright &copy; NamelessApes 2022</p>*/}
+        {/*      <Spotify style={{ color: 'red' }}/>*/}
+        {/*      <Instagram style={{ color: 'red' }} />*/}
+        {/*      <Facebook style={{ color: 'red' }}/>*/}
+        {/*      <Youtube style={{ color: 'red' }} />*/}
+        {/*    </div>*/}
+        {/*  </Container>*/}
+        {/*</footer>*/}
       </div>
   );
 }

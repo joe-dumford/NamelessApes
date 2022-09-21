@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d865e0-1f70-4197-9618-cc6816f86b89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/ApeLogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/JoeRec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/call.to.action/call.to.action.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/call.to.action/call.to.action.styles.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/call.to.action/call.to.action.template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/footer/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/footer/footer.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/footer/footer.view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/header/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/header/header.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/header/header.view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/layout/full.width/full.width.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/video/video.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/video/video.styles.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/video/video.template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/ui/ui.background/ui.background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Landing/landing.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Landing/landing.template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tour/tour.logic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tour/tour.styles.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tour/tour.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EJWYXwZxuICQZDiVy8ub7Mzpk2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -34,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -42,8 +66,20 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/common/components" />
+      <recent name="$PROJECT_DIR$/src/common/ui" />
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,7 +92,9 @@
       <workItem from="1662314225677" duration="901000" />
       <workItem from="1663107946556" duration="1421000" />
       <workItem from="1663167490306" duration="348000" />
-      <workItem from="1663177843091" duration="2850000" />
+      <workItem from="1663177843091" duration="3658000" />
+      <workItem from="1663528722863" duration="1653000" />
+      <workItem from="1663717694450" duration="4739000" />
     </task>
     <servers />
   </component>
