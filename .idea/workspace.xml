@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d865e0-1f70-4197-9618-cc6816f86b89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/pages/tour/routes/tour.view/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/tour/routes/tour.view/tour.base.logic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/pages/tour/routes/tour.view/tour.base.view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/services/custom.event.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/resources/sub.components/resources.card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/resources/sub.components/resources.card/resources.card.layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/resources/sub.components/resources.form/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/resources/sub.components/resources.form/resources.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/views/tour/routes/tour.view/tour.base.view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/header/header.logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/header/header.logic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/header/header.view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/header/header.view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/pages/tour/routes/tour.view/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/views/tour/routes/tour.view/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/pages/tour/routes/tour.view/tour.base.logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/views/tour/routes/tour.view/tour.base.logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/pages/tour/routes/tour.view/tour.base.view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Landing/landing.logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/resources/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Landing/landing.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/resources/routes/store/global/global.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tour/tour.logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/resources/routes/store/global/global.constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tour/tour.styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/resources/routes/store/global/global.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tour/tour.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/resources/routes/store/global/global.state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +71,11 @@
       <recent name="$PROJECT_DIR$/src/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common/components/resources" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/common/components" />
       <recent name="$PROJECT_DIR$/src/common/ui" />
       <recent name="$PROJECT_DIR$/src/common" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +92,8 @@
       <workItem from="1663177843091" duration="3658000" />
       <workItem from="1663528722863" duration="1653000" />
       <workItem from="1663717694450" duration="4739000" />
-      <workItem from="1663947086587" duration="4815000" />
+      <workItem from="1663947086587" duration="5319000" />
+      <workItem from="1664325660750" duration="2893000" />
     </task>
     <servers />
   </component>
